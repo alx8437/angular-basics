@@ -15,7 +15,7 @@ export class AppComponent {
 
   }
 
-  onInputValue(event): void {
-    this.inputValue = event.target.value;
+  onInputValue(event: KeyboardEvent): void {
+    this.inputValue = (event.target as HTMLInputElement).value;
 }
 }
