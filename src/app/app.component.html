@@ -1,5 +1,7 @@
 <h1>{{title}}</h1>
 <br>
-<img class="img" [src]="img" alt="">
+
+<input type="text" (input)="onInputValue($event)">
+<strong><p>{{inputValue}}</p></strong>
 <app-counter></app-counter>
 

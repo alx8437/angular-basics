@@ -9,4 +9,8 @@ import {Component} from '@angular/core';
 export class CounterComponent {
   value = 0;
 
+  counterUp(): void {
+    this.value += 1;
+  }
+
 }
