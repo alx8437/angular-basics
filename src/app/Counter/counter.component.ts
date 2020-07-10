@@ -1,4 +1,4 @@
-import {Component} from "@angular/core";
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-counter',
@@ -6,4 +6,7 @@ import {Component} from "@angular/core";
   styleUrls: ['./counter.component.scss']
 })
 
-export class CounterComponent {}
+export class CounterComponent {
+  value = 0;
+
+}

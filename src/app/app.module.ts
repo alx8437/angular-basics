@@ -6,6 +6,7 @@ import {PostComponent} from './Post/post.component';
 import {CounterComponent} from './Counter/counter.component';
 import { Post2Component } from './post2/post2.component';
 import {Post3Component} from './Post3/post3.component';
+import { PreloaderComponent } from './preloader/preloader.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {Post3Component} from './Post3/post3.component';
     PostComponent,
     CounterComponent,
     Post2Component,
-    Post3Component
+    Post3Component,
+    PreloaderComponent
   ],
   imports: [
     BrowserModule
