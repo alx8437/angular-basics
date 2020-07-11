@@ -13,4 +13,8 @@ export class CounterComponent {
     this.value += 1;
   }
 
+  resetValue(): void {
+    this.value = 0;
+  }
+
 }
