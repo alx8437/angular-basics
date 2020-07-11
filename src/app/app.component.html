@@ -1,7 +1,9 @@
-<h1>{{title}}</h1>
-<br>
+<div class="wrapper">
+  <h1>{{title}}</h1>
+  <br>
 
-<input type="text" (keyup.enter)="onInputValue($event)">
-<strong><p>{{inputValue}}</p></strong>
-<app-counter></app-counter>
+  <input type="text" value="{{inputValue}}" (input)="inputChange($event)" (keyup.enter)="clearInput($event)">
+  <strong><p>{{inputValue}}</p></strong>
+  <app-counter></app-counter>
+</div>
 

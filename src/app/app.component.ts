@@ -9,13 +9,15 @@ import {CounterComponent} from './Counter/counter.component';
 })
 export class AppComponent {
   title = 'Hello world! I am Angular Developer!';
-  inputValue = '';
+  inputValue = 'initial';
 
   constructor() {
 
   }
-
-  onInputValue(event: KeyboardEvent): void {
-    this.inputValue = (event.target as HTMLInputElement).value;
-}
+  inputChange(event): void {
+    this.inputValue = event.target.value;
+  }
+  clearInput(event: KeyboardEvent): void {
+    this.inputValue = '';
+  }
 }

@@ -1,8 +1,12 @@
 
 <div class="wrapper">
-  <div class="value">{{value}}</div>
-  <button (click)="counterUp()">Up</button>
-  <button (click)="resetValue()">reset</button>
   <div class="description">counter</div>
-  <div class="footer">settings</div>
+  <div class="value">{{value}}</div>
+  <div class="wrapperButton">
+    <button (click)="counterUp()">Up</button>
+    <button (click)="counterDown()">Down</button>
+    <button (click)="resetValue()">reset</button>
+  </div>
+  <div>Enter value (only number) and press Enter</div>
+  <input class="input" type="text" (keyup.enter)="changeInput($event)">
 </div>
