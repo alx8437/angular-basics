@@ -9,10 +9,5 @@ import {CounterComponent} from './Counter/counter.component';
 })
 export class AppComponent {
   title = 'Hello world! I am Angular Developer!';
-  inputValue = 'initial';
-
-  constructor() {
-
-  }
 
 }
