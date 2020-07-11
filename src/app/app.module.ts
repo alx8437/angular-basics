@@ -7,6 +7,7 @@ import { PreloaderComponent } from './preloader/preloader.component';
 import {FormsModule} from '@angular/forms';
 import { NgmodelComponent } from './ngmodel/ngmodel.component';
 import { BindComponent } from './bind/bind.component';
+import { NgstyleComponent } from './ngstyle/ngstyle.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BindComponent } from './bind/bind.component';
     CounterComponent,
     PreloaderComponent,
     NgmodelComponent,
-    BindComponent
+    BindComponent,
+    NgstyleComponent
   ],
   imports: [
     BrowserModule,
