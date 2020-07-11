@@ -8,6 +8,7 @@ import {Component} from '@angular/core';
 
 export class CounterComponent {
   value = 0;
+  color = false;
 
   counterUp(): void {
     this.value += 1;
