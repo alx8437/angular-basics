@@ -14,10 +14,5 @@ export class AppComponent {
   constructor() {
 
   }
-  inputChange(event): void {
-    this.inputValue = event.target.value;
-  }
-  clearInput(event: KeyboardEvent): void {
-    this.inputValue = '';
-  }
+
 }

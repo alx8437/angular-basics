@@ -7,6 +7,7 @@ import {CounterComponent} from './Counter/counter.component';
 import { Post2Component } from './post2/post2.component';
 import {Post3Component} from './Post3/post3.component';
 import { PreloaderComponent } from './preloader/preloader.component';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { PreloaderComponent } from './preloader/preloader.component';
     PreloaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -2,7 +2,7 @@
   <h1>{{title}}</h1>
   <br>
 
-  <input type="text" value="{{inputValue}}" (input)="inputChange($event)" (keyup.enter)="clearInput($event)">
+  <input type="text" [(ngModel)]="inputValue">
   <strong><p>{{inputValue}}</p></strong>
   <app-counter></app-counter>
 </div>
