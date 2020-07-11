@@ -9,6 +9,7 @@ import { NgmodelComponent } from './ngmodel/ngmodel.component';
 import { BindComponent } from './bind/bind.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
+import { ClassderectiveComponent } from './classderective/classderective.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NgclassComponent } from './ngclass/ngclass.component';
     NgmodelComponent,
     BindComponent,
     NgstyleComponent,
-    NgclassComponent
+    NgclassComponent,
+    ClassderectiveComponent
   ],
   imports: [
     BrowserModule,
