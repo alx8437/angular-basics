@@ -12,6 +12,7 @@ import { NgclassComponent } from './ngclass/ngclass.component';
 import { ClassderectiveComponent } from './classderective/classderective.component';
 import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
 import { SwichComponent } from './swich/swich.component';
+import { NgForComponent } from './ng-for/ng-for.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { SwichComponent } from './swich/swich.component';
     NgclassComponent,
     ClassderectiveComponent,
     NgIfElseComponent,
-    SwichComponent
+    SwichComponent,
+    NgForComponent
   ],
   imports: [
     BrowserModule,

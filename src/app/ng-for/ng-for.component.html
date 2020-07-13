@@ -1,0 +1,18 @@
+<ul>
+  <li *ngFor="let n of arr; let idx = index">
+    <b>{{idx + 1}}</b> {{n}}
+  </li>
+</ul>
+
+
+
+<ul>
+  <li *ngFor ="let post of objs">
+    {{post.title}} <b>{{post.author}}</b>
+      <ul>
+        <li *ngFor="let com of post.comments">
+          <b>{{com.name}}</b>{{com.text}}
+        </li>
+      </ul>
+  </li>
+</ul>
