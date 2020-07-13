@@ -10,6 +10,7 @@ import { BindComponent } from './bind/bind.component';
 import { NgstyleComponent } from './ngstyle/ngstyle.component';
 import { NgclassComponent } from './ngclass/ngclass.component';
 import { ClassderectiveComponent } from './classderective/classderective.component';
+import { NgIfElseComponent } from './ng-if-else/ng-if-else.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ClassderectiveComponent } from './classderective/classderective.compone
     BindComponent,
     NgstyleComponent,
     NgclassComponent,
-    ClassderectiveComponent
+    ClassderectiveComponent,
+    NgIfElseComponent
   ],
   imports: [
     BrowserModule,

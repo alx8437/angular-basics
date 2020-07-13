@@ -1,0 +1,8 @@
+
+
+
+<button (click)="offPreloader()">change</button>
+<app-preloader *ngIf="preloader === true; else counter"></app-preloader>
+<ng-template #counter>
+  <app-counter></app-counter>
+</ng-template>
