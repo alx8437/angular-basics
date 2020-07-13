@@ -1,0 +1,8 @@
+<button (click)="toggle = !toggle">toggle</button>
+<button (click)="toggle = 'default'">default</button>
+
+<div [ngSwitch]="toggle">
+  <p *ngSwitchCase="true" class="red">Red Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, repellendus!</p>
+  <p *ngSwitchCase="false" class="green">Green Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, hic!</p>
+  <p *ngSwitchDefault class="default">Default Lorem ipsum dolor sit amet.</p>
+</div>

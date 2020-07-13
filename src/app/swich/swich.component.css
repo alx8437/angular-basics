@@ -1,0 +1,17 @@
+.red {
+  display: inline;
+  background-color: red;
+  color: green;
+}
+
+.green {
+  display: inline;
+  background-color: green;
+  color: red;
+}
+
+.default {
+  display: inline;
+  color: orange;
+  background-color: brown;
+}
